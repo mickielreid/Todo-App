@@ -1,0 +1,8 @@
+<div class="main">
+    <p class="text-center pt-2 header-config">My Awesome List Of Stuff To Do</p>
+    <hr>
+    <div class="container" *ngFor="let do of allTodo; index as i">
+        <app-todo-item  [counter]="i" [todo]="do" ></app-todo-item>
+    </div>
+</div>
+

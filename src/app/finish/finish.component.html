@@ -1,0 +1,7 @@
+<p class="text-center pt-2 header-config">Finished</p>
+
+<hr>
+
+<div class="container">
+    <app-finish-item *ngFor="let i of finish; index as counter" [todo]="i" [counter]="counter"></app-finish-item>
+</div>

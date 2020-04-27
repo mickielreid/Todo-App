@@ -1,0 +1,38 @@
+
+p{
+    color: #6699ff;
+}
+
+ion-icon{
+    color: rgb(8, 163, 8);
+    font-size: 1.2em;
+}
+
+ion-icon:hover{
+    font-size: 1.1em;
+}
+
+div{
+    border-bottom: 0.2px rgb(199, 199, 199) solid;
+    margin-top:4px
+}
+
+@media only screen and (max-width: 377px) {
+
+    div{
+        /* border: gray 1px solid; */
+        border-bottom: none;
+    }
+
+    .row{
+        border: 1px gray solid;
+        margin-bottom: 30px;
+    }
+
+    .icon-box{
+        border-bottom: 1px gray solid;
+        text-align: center;
+       
+    }
+
+}

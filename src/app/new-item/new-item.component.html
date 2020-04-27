@@ -1,0 +1,32 @@
+<div class="container  mt-2 main mb-3 main-row">
+    <div class="row ">
+        <div class="col-md-2 col-sm-12 head-holder">
+            <!-- this is the check list at top -->
+            <!-- this should be in the centre -->
+            <ion-icon name="list-outline" class="mr-3 list-icon pt-3 "></ion-icon>
+            
+            <div class="text-header">
+                <span>ADD Items To List</span>
+            </div>
+        </div>
+
+        <div class="col-md-9 col-sm-10 input-div  input-holder " >
+            
+                <div (keyup.enter)="onSubmit($event)" class="form-group">
+                    <input  #inputVal type="text" id="item" class="form-control" />
+
+                </div>
+            
+        </div>
+
+        <!-- end search bar -->
+        <div class="col-md-1 col-sm-2 submit-holder ">
+            <a class="add-btn-link " href="#" (click)="onSubmit($event)">
+                <ion-icon name="add-circle-outline" class="submit-query"></ion-icon>
+            </a>
+        </div>
+
+
+    </div>
+    <!-- end row -->
+</div>
